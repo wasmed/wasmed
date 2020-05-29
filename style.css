@@ -1,0 +1,160 @@
+body{
+margin:0;
+padding:5px;
+background-color:#f4eeee;
+font-family:Chalkduster, fantasy;
+}
+
+#banner1 {
+   background-color:#e9670e;
+   height:150px;
+   width:100%;
+}
+#banner1 h1{
+	color:#6a4a38;
+	position:relative;
+	text-align:center;
+	font-size:50px;
+	padding-top:40px;
+	
+}
+#banner1 img{
+	float:left;
+	width:150px;
+	height:150px;
+}
+#menu{
+	width:100%;
+	height:150px;
+	position:relative;
+	background-color:#bd6e37;
+}
+#menu ul{
+	float:left;
+	left:50%;
+	position:relative;
+	padding-top:30px;
+	margin-left:-50px;
+}
+#menu ul li {
+	margin-left:50px;
+	float:left;
+	list-style-type:none;
+	position:relative;
+	left:-50%;
+}
+#menu ul li a{
+	font-size:20px;	
+	text-align:center;
+	padding-top:10px;
+	background-color:#efd3c0;
+	height:50px;
+	width:100px;
+	text-decoration:none;
+}
+#menu ul li a:hover {
+	color:blue;
+	background-color:#bdd842;
+	transition:1.5s all;
+}
+#banner2{
+	color:#6a4a38;
+	background-color:#f2722e;
+	height:50px;
+	width:100%;
+	font-size:40px;
+	font-family:Comic Sans MS, Comic Sans, cursive;
+}
+#contenuprincipal {
+	float:left;
+	background-image:url('couscous.jpg');	
+	position:relative;
+	text-align:center;
+	width:100%;
+	height:400px;
+	font-size:20px;
+}
+#range img {
+	 width:355px;
+	  height:300px;
+      float:left;
+	  }
+
+#range{
+	float:right;
+	font-size:20px;	
+	text-align:center;
+	background-color:#d2976f;
+	height:300px;
+	width:100%;
+}
+#notremenu img {
+	width:355px;
+	 height:300px;
+     float:left;
+}	
+
+table {
+	height:300px;
+	font-size:20px;
+	background-color:#ba2626;
+	vertical-align:top;
+	padding-bottom:20px;
+}
+table th{
+	background-color:#d07b4d;
+}
+#reserver h1,#contact h1 {
+	font-size:40px;
+	background-color:#a03232;
+	text-align:center;
+	margin:50px;
+	border:5px double black;
+	padding:20px;
+}
+#reserver img {
+	  width:400px;
+	  height:540px;
+      float:right;
+}
+form {
+	height:540px;
+	background-color:#c86e25;
+	font-size:15px;
+}
+form ul li{
+	text-align:justify;
+	list-style-type:none;
+	padding-top:10px;
+
+}
+
+#contact1 {
+	font-size:20px;
+	background-color:#c86e25;
+	text-align:center;
+	border:2px solid black;
+	border-top-left-radius: 80px 80px;
+	margin:80px;
+	padding:20px;
+}
+
+#contact1 h2 {
+	color:#2d0507;
+	font-size:30px;
+}
+	
+#contact2 {	
+    color:#6a4a38;
+	font-size:20px;
+	background-color:#c86e25;
+	text-align:center;
+	
+}	
+#footer{
+	clear:both;
+}
+#footer {
+	text-align:center;
+	background-color:olive;
+}
